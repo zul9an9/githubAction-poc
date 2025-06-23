@@ -8,7 +8,7 @@ jobs:
     name: "My first job"
     runs-on: ubuntu-latest
     steps:
-      - name: "My foirst action"
+      - name: "My first action"
         run: echo "Hello Git Action"
       - name: "My Second action"
         run: |
