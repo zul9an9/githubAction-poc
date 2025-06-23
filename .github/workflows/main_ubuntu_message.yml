@@ -12,7 +12,8 @@ jobs:
         run: echo "Hello Git Action"
       - name: "My Second action"
         run: |
-          echo "First Display"
+          echo "First Game"
+          echo "Second Game"
           echo "Congratulation !!!"
 
     
