@@ -11,8 +11,7 @@ jobs:
       - name: "My first python"
         run: echo "Hello Git Action using Python"
       - name: "My Python Action"
-        run:
-          var = "Hello Python Action"
-          print(var)
-          echo "Third Game"
+        run: |
+          variavel = "Hello Python Action"
+          print(variavel)
         shell: python
