@@ -13,6 +13,7 @@ jobs:
   python-job02:
     name: "My python action two"
     runs-on: ubuntu-latest
+    needs: ["python-job01"]
     steps:
       - name: "My second python"
         run: echo "Hello Git Action using Python two"
