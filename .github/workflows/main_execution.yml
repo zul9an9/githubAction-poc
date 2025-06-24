@@ -1,17 +1,17 @@
-name: first-pipeline
+name: first-python
 on:
   push: 
     branches: ["main"]
   workflow_dispatch:
 jobs: 
-  first-job:
-    name: "My second job"
+  python-job:
+    name: "My python action"
     runs-on: ubuntu-latest
     steps:
-      - name: "My first action"
+      - name: "My first python"
         run: echo "Hello Git Action using Python"
       - name: "My Python Action"
-        run: |
+        run:
           var = "Hello Python Action"
           print(var)
           echo "Third Game"
