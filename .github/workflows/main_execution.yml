@@ -4,14 +4,20 @@ on:
     branches: ["main"]
   workflow_dispatch:
 jobs: 
-  python-job:
-    name: "My python action"
+  python-job01:
+    name: "My python action one"
     runs-on: ubuntu-latest
     steps:
       - name: "My first python"
-        run: echo "Hello Git Action using Python"
+        run: echo "Hello Git Action using Python one"
+  python-job02:
+    name: "My python action two"
+    runs-on: ubuntu-latest
+    steps:
+      - name: "My second python"
+        run: echo "Hello Git Action using Python two"
       - name: "My Python Action"
         run: |
-          variavel = "Hello Python Action"
+          variavel = "Hello Python Action two"
           print(variavel)
         shell: python
