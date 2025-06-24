@@ -14,6 +14,5 @@ jobs:
         run: |
           echo "First Game"
           echo "Second Game"
-          echo "Congratulation !!!"
-
-    
+          echo "Third Game"
+          echo "Congratulation !!!"   
