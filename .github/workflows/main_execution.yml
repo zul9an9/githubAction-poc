@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "My first python"
-        run: ech "Hello Git Action using Python one"
+        run: echo "Hello Git Action using Python one"
   python-job02:
     name: "My python action two"
     runs-on: ubuntu-latest
