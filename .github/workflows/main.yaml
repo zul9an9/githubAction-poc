@@ -10,10 +10,18 @@ jobs:
     steps:
        - name: "Minha primeira ação"
          run: echo "Minha primeira acao" 
-       - name: "Minha segunda açã"
+       - name: "Minha segunda acao"
          run: |
            echo "Minha segunda acao"
            echo "Parabens !!!" 
+       - name: "Minha terceira acao"
+         shell: python
+         run: |
+           variavel = "Hello Word Python"
+           print(variavel)
+
+              
+                       
            
 
          
