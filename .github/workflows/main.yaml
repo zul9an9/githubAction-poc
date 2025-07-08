@@ -19,6 +19,12 @@ jobs:
          run: |
            variavel = "Hello Word Python"
            print(variavel)
+  second-pipeline:
+    name: "Meu segundo job  - instalacao do NodeJS"
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Verificacao da versao do NodeJS atual"
+        run: node --version
 
               
                        
