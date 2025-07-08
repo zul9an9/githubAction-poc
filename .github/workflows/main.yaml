@@ -25,6 +25,12 @@ jobs:
     steps:
       - name: "Verificacao da versao do NodeJS atual"
         run: node --version
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20.13.1"
+        
+
+    
 
               
                        
